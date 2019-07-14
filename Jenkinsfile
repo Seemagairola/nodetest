@@ -2,6 +2,7 @@ pipeline {
   agent {
     label "jenkins-maven"
   }
+
   environment {
     ORG = 'seemagairola'
     APP_NAME = 'nodetest'
